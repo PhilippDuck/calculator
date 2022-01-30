@@ -1,0 +1,65 @@
+:root {
+    --specialColor: rgb(21, 33, 56);
+    --specialHoverColor: rgb(29, 45, 75);
+    --resultBtnColor: rgb(30, 80, 156);
+    --resultBtnHoverColor: rgb(41, 95, 175);
+}
+
+body {
+    background-color: rgb(78, 78, 78);
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#resultArea {
+    height: 30vh;
+    color: white;
+    font-size: 30pt;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    height: 70vh;
+    font-size: 25pt;
+    background-color: rgb(56, 56, 56);
+}
+
+th {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    width: 25%;
+}
+
+th:hover {
+    background-color: rgb(40, 40, 40);
+    transform: scale(1.05);
+}
+
+#calcBtn {
+    background-color: var(--resultBtnColor);
+}
+
+#calcBtn:hover {
+    background-color: var(--resultBtnHoverColor);
+}
+
+.specialBtn {
+    background-color: var(--specialColor);
+}
+
+.specialBtn:hover {
+    background-color: var(--specialHoverColor);
+}
+
+#delBtn {
+    background-color: rgb(255, 87, 87);
+}
+
+#delBtn:hover {
+    background-color: rgb(243, 65, 65);
+}

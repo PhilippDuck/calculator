@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+
+
+    <div id="resultArea">
+
+    </div>
+
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th id="delBtn" onclick="del()">DEL</th>
+        </tr>
+        <tr>
+            <th onclick="add(1)">1</th>
+            <th onclick="add(2)">2</th>
+            <th onclick="add(3)">3</th>
+            <th class="specialBtn" onclick="add('/')">/</th>
+        </tr>
+        <tr>
+            <th onclick="add(4)">4</th>
+            <th onclick="add(5)">5</th>
+            <th onclick="add(6)">6</th>
+            <th class="specialBtn" onclick="add('*')">*</th>
+        </tr>
+        <tr>
+            <th onclick="add(7)">7</th>
+            <th onclick="add(8)">8</th>
+            <th onclick="add(9)">9</th>
+            <th class="specialBtn" onclick="add('+')">+</th>
+        </tr>
+        <tr>
+            <th class="specialBtn" onclick="add('.')">.</th>
+            <th onclick="add(0)">0</th>
+            <th id="calcBtn" onclick="calculate()">=</th>
+            <th class="specialBtn" onclick="add('-')">-</th>
+        </tr>
+    </table>
+
+</body>
+</html>
